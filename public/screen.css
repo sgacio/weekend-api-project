@@ -56,3 +56,73 @@ body {
   text-align: center;
   font-size: .8rem;
 }
+
+.spacex {
+  background-color: rgb(255, 193, 7);
+  margin-top: -1rem;
+}
+
+.card {
+  background-color: rgb(237, 237, 237);
+  width: 90%;
+  border-radius: 10px;
+}
+
+.top-of-card {
+  text-align: center;
+  margin-top: .5rem;
+}
+
+.card-content {
+  border-bottom: solid .05rem;
+  border-color: rgb(192, 174, 192);
+}
+
+.left-arrow {
+  background-color: rgb(255, 193, 7);
+}
+
+.right-arrow {
+  background-color: rgb(255, 193, 7);
+}
+
+.spacex-Launches {
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.cards-and-arrows {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.light-purple-section {
+  background-color: rgb(192, 174, 192);
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.mission {
+  text-align: center;
+}
+
+.alien {
+  text-align: center;
+}
+
+.bottom-part {
+  background-color: rgb(144, 79, 206);
+  padding: 2rem;
+}
+
+.footer {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.footer-anchor {
+  color: whitesmoke;
+  text-decoration-line: underline;
+}
