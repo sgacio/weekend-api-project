@@ -10,3 +10,49 @@ body {
   margin: 0;
   min-height: 100%;
 }
+
+.full-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: blueviolet;
+}
+
+.top-banner {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.anchors {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: .5rem;
+}
+
+.astro-lounge {
+  margin-left: 1rem;
+  color: whitesmoke;
+}
+
+.about {
+  margin-right: 2rem;
+  color: whitesmoke;
+  text-decoration-line: underline;
+}
+
+.contact-us {
+  margin-right: 1rem;
+  color: whitesmoke;
+  text-decoration-line: underline;
+}
+
+.picture-background {
+  text-align: center;
+  font-size: 2rem;
+  margin: 10rem 0 10rem 0;
+}
+
+.copy-right {
+  text-align: center;
+  font-size: .8rem;
+}
