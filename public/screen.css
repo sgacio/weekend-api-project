@@ -76,14 +76,35 @@ body {
 .card-content {
   border-bottom: solid .05rem;
   border-color: rgb(192, 174, 192);
+  padding: .5rem;
+}
+
+.cards-content {
+  padding: .5rem;
 }
 
 .left-arrow {
   background-color: rgb(255, 193, 7);
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  height: 2.5rem;
+  width: 4rem;
+  margin-top: 4rem;
+  margin-right: 1.5rem;
+  font-weight: 1000;
+  font-size: 1.5rem;
 }
 
 .right-arrow {
   background-color: rgb(255, 193, 7);
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  height: 2.5rem;
+  width: 4rem;
+  margin-top: 4rem;
+  margin-left: 1.5rem;
+  font-weight: 1000;
+  font-size: 1.5rem;
 }
 
 .spacex-Launches {
