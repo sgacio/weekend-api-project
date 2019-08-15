@@ -69,6 +69,8 @@ width: auto; */
 .copy-right {
   text-align: center;
   font-size: .8rem;
+  margin-top: .2rem;
+  margin-bottom: -1rem;
 }
 
 .spacex {

@@ -1,3 +1,12 @@
+class Space_X_Launches {
+  constructor(name, description, time, location) {
+    this.name = name
+    this.description = description
+    this.time = time
+    this.location = location
+  }
+}
+
 const main = () => {
   findNasaPhoto()
 }
@@ -7,10 +16,11 @@ const findNasaPhoto = () => {
     .then(response => {
       return response.json()
     }).then(nasaPhoto => {
-      console.log(nasaPhoto.hdUrl)
       document.querySelector('.picture-background').style.backgroundImage = `url('${nasaPhoto.hdUrl}')`
       document.querySelector('.copy-right').textContent = `copyright: ${nasaPhoto.copyright} | title: ${nasaPhoto.title}`
     })
 }
+
+
 
 document.addEventListener('DOMContentLoaded', main)
