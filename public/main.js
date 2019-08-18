@@ -49,7 +49,7 @@ const getSpaceXMissions = async () => {
     const missionName = mission.mission_name
 
     // This will cover the mission details //
-    const missionDetails = mission.detailsBox
+    const missionDetails = mission.details ? mission.details : 'No description available yet.'
 
     // This will cover the mission timer //
     const missionTimer = mission.launch_date_utc
@@ -72,6 +72,9 @@ const letsDisplayThis = () => {
   spaceFlights[currentFlight].container.classList.add('main-container')
 
   spaceFlights[currentFlight].nameBox.textContent = spaceFlights[currentFlight].name
+  spaceFlights[currentFlight].nameBox.classList.add('name')
+  spaceFlights[currentFlight].nameBox.classList.add('fas')
+  spaceFlights[currentFlight].nameBox.classList.add('fa-space-shuttle')
 
   spaceFlights[currentFlight].detailsBox.textContent = spaceFlights[currentFlight].details
   spaceFlights[currentFlight].detailsBox.classList.add('card-style')
@@ -80,7 +83,6 @@ const letsDisplayThis = () => {
   spaceFlights[currentFlight].timeBox.classList.add('card-style')
 
   spaceFlights[currentFlight].locationBox.textContent = spaceFlights[currentFlight].location
-  spaceFlights[currentFlight].locationBox.classList.add('card-style')
 
   spaceFlights[currentFlight].container.appendChild(spaceFlights[currentFlight].nameBox)
   spaceFlights[currentFlight].container.appendChild(spaceFlights[currentFlight].detailsBox)

@@ -75,15 +75,27 @@ body {
   margin-top: -1rem;
 }
 
+.card-style {
+  border-bottom: .05rem solid black;
+  width: 50rem;
+}
+
+.main-container {
+  border: 0.1rem solid black;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
 .left-arrow {
   background-color: rgb(255, 193, 7);
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   height: 2.5rem;
-  width: 4rem;
-  margin-right: 4.5rem;
+  width: 15rem;
+  margin-top: 6rem;
   font-weight: 1000;
   font-size: 1.5rem;
+
 }
 
 .right-arrow {
@@ -91,8 +103,8 @@ body {
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   height: 2.5rem;
-  width: 4rem;
-  margin-left: 4.5rem;
+  width: 15rem;
+  margin-top: 6rem;
   font-weight: 1000;
   font-size: 1.5rem;
 }
